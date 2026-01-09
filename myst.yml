@@ -5,8 +5,8 @@ project:
   title: Python lecture for Chemistry
   # description:
   # keywords: []
-  authors: [N. Rolland]
-  github: https://github.com/nicro31/python_lecture
+  #authors: [N. Rolland]
+  #github: https://github.com/nicro31/python_lecture
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: content/index.md
