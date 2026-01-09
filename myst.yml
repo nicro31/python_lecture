@@ -13,16 +13,14 @@ project:
     - title: Introduction
       children:
         - file: content/introduction.md
-          title: what
     - title: Get Started
       children:
         - file: content/test.ipynb
-          title: who
 
 site:
   template: book-theme
   options:
     show_author: false
     folders: true
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  favicon: content/images/site_logo.ico
+  logo: content/images/site_logo.png
