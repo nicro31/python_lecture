@@ -10,10 +10,10 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: content/index.md
-    - title: Introduction
-      children:
-        - file: content/introduction.md
     - title: Get Started
+      children:
+        - file: content/install.md
+    - title: Basic variables and operations
       children:
         - file: content/test.ipynb
 
@@ -22,5 +22,5 @@ site:
   options:
     show_author: false
     folders: true
-  favicon: content/images/site_logo.ico
-  logo: content/images/site_logo.png
+    favicon: content/images/site_logo.ico
+    logo: content/images/site_logo.png
