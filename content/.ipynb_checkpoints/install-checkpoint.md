@@ -22,6 +22,12 @@ Python comes in different **distributions**, which are packaged versions of Pyth
 :width: 100%
 :::
 
+![](images/fig_install_1.png)
+
+<p align="center">
+  <img src="images/fig_install_1.png" style="width:100; height:1000;">
+</p>
+
 3. On the next page, select and download the installer corresponding to Miniconda, see figure below
 
 :::{figure} /images/fig_install_2.png
