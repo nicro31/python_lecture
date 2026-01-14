@@ -23,6 +23,7 @@ execute:
 myst:
   enable_extensions:
     - colon_fence
+  nb_execution_mode: force
     
 site:
   template: book-theme

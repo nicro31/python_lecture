@@ -49,3 +49,4 @@ The Windows terminal opened with **Anaconda Prompt**
 Before going to Python itself, let us discuss briefly what is the Windows terminal. Basically, this is an interface where you can do everything you would do on Windows with the mouse displacement and click, but instead you need to type text commands. This is thus a bit less intuitive, but it gives you more flexibility and more understanding of what you are doing. The **(base)** text at the top left is specific of the **Anaconda Prompt** and indicates that Python is active.
 
 
+
