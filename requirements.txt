@@ -1,0 +1,5 @@
+mystmd
+jupyterlab
+jupyter-server
+ipykernel
+nbclient 
