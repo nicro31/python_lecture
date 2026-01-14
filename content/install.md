@@ -17,22 +17,20 @@ Python comes in different **distributions**, which are packaged versions of Pyth
 1. Go to the Anaconda download page: [Anaconda download](https://www.anaconda.com/download)
 2. Scroll down to the page bottom, it will look like the following picture, and click on "Download Miniconda Installer"
 
-:::{figure} /images/fig_install_1.png
+:::{figure} images/fig_install_1.png
 :align: center
 :width: 100%
+
+Screenshot of the bottom of the Anaconda download page
 :::
-
-![](images/fig_install_1.png)
-
-<p align="center">
-  <img src="images/fig_install_1.png" style="width:100; height:1000;">
-</p>
 
 3. On the next page, select and download the installer corresponding to Miniconda, see figure below
 
-:::{figure} /images/fig_install_2.png
+:::{figure} images/fig_install_2.png
 :align: center
 :width: 100%
+
+Screenshot of the Miniconda download
 :::
 
 4. When the download is done, open the file and install Miniconda with all the default parameters (you can install the software for your session only if you haven't admin rights on the computer you are using).
@@ -41,7 +39,7 @@ Python comes in different **distributions**, which are packaged versions of Pyth
 
 If the installation ran smoothly, a new application called **Anaconda Prompt** should be available on your Windows session. To find it, just type *Anaconda prompt* in the Windows search bar. Click to open the application, and a small minimalist black window should appear: this is a Windows **terminal** or **console**, see the picture below.
 
-:::{figure} /images/fig_install_3.png
+:::{figure} images/fig_install_3.png
 :align: center
 :width: 100%
 
