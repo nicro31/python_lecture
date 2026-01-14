@@ -16,14 +16,6 @@ project:
     - title: Basic variables and operations
       children:
         - file: content/test.ipynb
-        
-execute:
-  execute_notebooks: auto
-
-myst:
-  enable_extensions:
-    - colon_fence
-  nb_execution_mode: force
     
 site:
   template: book-theme
