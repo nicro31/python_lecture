@@ -13,9 +13,12 @@ project:
     - title: Get Started
       children:
         - file: content/install.md
-    - title: Basic variables and operations
+        - file: content/vibe_coding.md
+        - file: content/notebook.md
+    - title: Variables and Operations
       children:
-        - file: content/test.ipynb
+        - file: content/simple_variables.ipynb
+        - file: content/containers.ipynb
     
 site:
   template: book-theme
