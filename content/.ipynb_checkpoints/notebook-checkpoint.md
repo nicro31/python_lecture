@@ -67,7 +67,7 @@ Here are the step to set up your environment with notebooks installed:
 
 Under construction...
 
-[Notebook Markdown Cheat Sheet](https://www.anaconda.com/download)
+[Notebook Markdown Cheat Sheet](https://www.kaggle.com/code/cuecacuela/2025-the-ultimate-markdown-cheat-sheet)
 
 ```{admonition} Exercice
 :class: tip
