@@ -35,7 +35,7 @@ Screenshot of the Miniconda download
 
 4. When the download is done, open the file and install Miniconda with all the default parameters (you can install the software for your session only if you haven't admin rights on the computer you are using).
 
-## Create your first environment
+## Using the terminal with Anaconda Prompt
 
 If the installation ran smoothly, a new application called **Anaconda Prompt** should be available on your Windows session. To find it, just type *Anaconda prompt* in the Windows search bar. Click to open the application, and a small minimalist black window should appear: this is a Windows **terminal** or **console**, see the picture below.
 
@@ -115,7 +115,55 @@ Windows Explorer view of the directory content
 
 That's it, you know how to navigate into your computer using the terminal! 👍 Now, we would like to be able to interact and modify the files located on the computer, right? Actually, for this lecture we need to be able to do only two things:
 
-* Creating a new directory. This is readily done using the `mkdir` command
+* Creating a new directory. This is readily done using the `mkdir` command.
 
-* Creating a new file
+:::{figure} images/fig_nav_directory_8.png
+:align: center
+:width: 100%
 
+Creating a new directory and going in
+:::
+
+* Creating a new text file. We can do that by calling (in the terminal) any basic text editor already installed on Windows, followed by the name of the new file. It is very important to explicitely write the **file extension**! In this lecture, you will need to create Python files with the extension **.py** (even though they are nothing else than simple text file at the end).
+
+:::{figure} images/fig_nav_directory_9.png
+:align: center
+:width: 100%
+
+Creating a Python file using the Windows notepad application
+:::
+
+Even though you can edit this file with any text editor, I advise you to use an **Integrated Development Editor (IDE)**. This is basically a text editor specialized for code writing, with automatic syntax recognition and auto-completion among others. PyCharm is a good choice for Python. If it is not installed on your computer just follow [this link](https://www.jetbrains.com/pycharm/download/?section=windows) to download and install the program, there is a free version. Once PyCharm is installed and you double-click the .py file in the Windows Explorer, Windows should automatically open the file in PyCharm. You will see a screen as shown below:
+
+:::{figure} images/fig_pycharm_light_edit.png
+:align: center
+:width: 100%
+
+Opening a Python file .py with PyCharm
+:::
+
+PyCharm is asking if you want to open the file in *light edit* or in *project*. Project mode gives access to many additionnal functionnalities to set up your Python environment. In this lecture, we are going to do so using the terminal, therefore we will only use the *light edit* mode. You can close the file for now, we will come back to it the next section.
+
+## Creating your first environment
+
+Now that you master the file manipulation with the terminal, let's go back to the Python part of the Anaconda Prompt ! Below is again the Anaconda Prompt terminal when you open it:
+
+:::{figure} images/fig_install_3.png
+:align: center
+:width: 100%
+
+The Anaconda Prompt terminal
+:::
+
+Besides the current directory, you have noticed the `(base)` text on the top left. This text indicates that there is currently a Python environment loaded and available in this terminal, the **base** environment. It means that you can launch a Python interpreter: type `python` and press enter:
+
+:::{figure} images/fig_python_interpreter_terminal.png
+:align: center
+:width: 100%
+
+The Python interpreter opened in the terminal
+:::
+
+When the interpreter open, you will see several information related to your installation of Python. First, `Python 3.13.9` refers to the version of Python installed. These versions correspond to the time evolution of Python since its creation, just like Windows had several versions (95, NT, XP, Vista, 7, 8, 10, 11...), with some functionnalies removed and some others added. In general it is a good idea to use the last Python version, but for this lecture we are going to stick with Python version 3.12 in order to be sure that we are all using the same tools!  Then you see that it is indicated that we are using the Python distribution provided by Anaconda, with some more inforamtion afterwards.
+
+Finally, on the last line there are now three chevrons `>>>`: it indicates that the interpreter is waiting for some Python code.

@@ -89,3 +89,4 @@ Try to reproduce the following notebook using the Markdown Cheat Sheet
 :width: 100%
 
 :::
+```
