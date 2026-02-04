@@ -19,6 +19,10 @@ project:
       children:
         - file: content/simple_variables.ipynb
         - file: content/containers.ipynb
+    - title: Structuring a program
+      children:
+        - file: content/conditions_and_loops.ipynb
+        - file: content/functions.ipynb
     
 site:
   template: book-theme
