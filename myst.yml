@@ -23,6 +23,7 @@ project:
       children:
         - file: content/conditions_and_loops.ipynb
         - file: content/functions.ipynb
+        - file: content/classes.ipynb
     
 site:
   template: book-theme
