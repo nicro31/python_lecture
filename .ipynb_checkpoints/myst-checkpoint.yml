@@ -24,6 +24,13 @@ project:
         - file: content/conditions_and_loops.ipynb
         - file: content/functions.ipynb
         - file: content/classes.ipynb
+    - title: Libraries, Packages and Modules
+      children:
+        - file: content/fundamentals.ipynb
+        - file: content/rdkit.ipynb
+        - file: content/pandas.ipynb
+        - file: content/matplotlib.ipynb
+        - file: content/summary_exercise.ipynb
     
 site:
   template: book-theme
