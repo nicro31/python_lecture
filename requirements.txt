@@ -3,3 +3,4 @@ jupyterlab
 jupyter-server
 ipykernel
 nbclient 
+rdkit
