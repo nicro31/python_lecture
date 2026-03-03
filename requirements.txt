@@ -4,3 +4,7 @@ jupyter-server
 ipykernel
 nbclient 
 rdkit
+pandas
+openpyxl
+matplotlib
+seaborn
