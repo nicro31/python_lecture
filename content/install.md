@@ -232,3 +232,55 @@ Just type `y` and press Enter. Note that even before that Python may ask you if 
 The terminal after the successful creation of a new Python environment
 :::
 
+The last lines in the terminal show you some commands to activate or deactivate the environment. Indeed, so far you have created a new Python environment but you are still within the `base` environment, as you can notice by the `(base)` text on the left. You can list all Python environments on your computer using the `conda info --envs` command, as shown in the figure below:
+
+:::{figure} images/fig_conda_info_envs.png
+:align: center
+:width: 100%
+
+Listing all available Python environments
+:::
+
+On my computer I have many different environments, but in your case you should have the `base` environment and the `lecture_env` only. This command also confirms that the active environment is the `base` environement, as indicating by the star. To actually use the new environment you have created, you need to **activate** it using `conda activate name` where `name` is the name of the Python environment:
+
+:::{figure} images/fig_conda_activate_env.png
+:align: center
+:width: 100%
+
+Activating the Python environment
+:::
+
+The activation is confirmed with the `(lecture_env)` text replacing the `(base)` text on the left. It is only once the environment is activated that you can add new tools to it and use it. You can go back to the `base` environment (for instance if you need to create another Python environment) using the command `conda deactivate`.
+
+```{warning}
+It is easy to forget to activate the new environment! In that case you might add tools to the wrong environment, and of course you will not be able to access the tools that are supposed to be in your environment. Be really careful about it!
+```
+
+## Adding libraries to the environment
+
+Now that you have a new fresh environment (activated!), it is time to fill it with some tools! These tools, i.e. the Python libraries, are hosted online on various repositories, and they can be installed in your environment using different commands. To put it simply, let's say that each command allows access to a different repository. In the following of the lecture, I will tell you which one to use. Yet, in general I would advise you to try the commands in the following order, until one is working (or just google to search which command should be used for which library):
+- `conda install library_name`, where `library_name` is the name of the library to install
+- `conda install -c conda-forge library_name`, which is basically the same command but we are asking to look for the library on a repository called `conda-forge`
+- `pip install library_name`
+
+For instance, let's install the library called `pygame`, that we will use in the next section. For this library, use the second option as shown below **(and be sure that your Python environment is activated!)**:
+
+:::{figure} images/fig_conda_install_pygame.png
+:align: center
+:width: 100%
+
+Installing the pygame library
+:::
+
+The terminal will ask you to confirm if you really want to install the library. To do so, type `y` and press Enter. To check that the library has been properly installed, you can use the `conda list` command:
+
+:::{figure} images/fig_conda_list_pygame.png
+:align: center
+:width: 100%
+
+Checking the list of available libraries
+:::
+
+As you can see the `pygame` does appear in the list of available libraries. Note that additionnal libraries have been installed, such as `sdl2`. This is a nice thing about `conda` (it also holds for `pip`): it automatically takes care of installing all libraries that are needed by the library you are installing (what is called dependencies).
+
+Excellent, we have now a new Python environment and we have installed a library inside!😄 What does this library is made for by the way?! Jump to the next section to discover that!

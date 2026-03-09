@@ -10,7 +10,7 @@ It is not intended to be an exhaustive presentation to Python, and it is not a l
 
 Finally, it is worth questioning whether teaching Python courses remains necessary in light of the incredible programming abilities of Artificial Intelligence? As I write these lines (2026), I still think yes, at least to know where to start from: what should I install on my computer to do some programming, what are the possibilities offered by Python, and how does a program works under the hood. AI is an amazing tool for programming, and just anyone can produce very complex programs nowadays in a couple of hours. Therefore, I definitely encourage the use of AI for programming, but I believe that one must know the basics of programming to really get the best out of it.  
 
-```{attention}
+```{warning}
 This textbook is under construction and may change (very) often!
 ```
 
