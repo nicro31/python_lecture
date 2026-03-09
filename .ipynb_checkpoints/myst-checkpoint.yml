@@ -31,6 +31,14 @@ project:
         - file: content/pandas.ipynb
         - file: content/matplotlib.ipynb
         - file: content/summary_exercise.ipynb
+    - title: Projects
+      children:
+        - file: content/project_introduction.ipynb
+        - file: content/project_emulsion_stability.ipynb
+        - file: content/project_surfactant_selection.ipynb
+        - file: content/project_pca.ipynb
+        - file: content/project_sle.ipynb
+
     
 site:
   template: book-theme
