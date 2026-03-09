@@ -19,7 +19,7 @@ project:
       children:
         - file: content/simple_variables.ipynb
         - file: content/containers.ipynb
-    - title: Structuring a program
+    - title: Structuring a Program
       children:
         - file: content/conditions_and_loops.ipynb
         - file: content/functions.ipynb

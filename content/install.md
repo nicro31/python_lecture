@@ -1,3 +1,4 @@
+(content:GetStarted)=
 # Install Python
 
 ## Introduction
@@ -155,7 +156,7 @@ Now that you master the file manipulation with the terminal, let's go back to th
 The Anaconda Prompt terminal
 :::
 
-Besides the current directory, you have noticed the `(base)` text on the top left. This text indicates that there is currently a Python environment loaded and available in this terminal, the **base** environment. It means that you can launch a Python interpreter: type `python` and press enter:
+Besides the current directory, you have noticed the `(base)` text on the top left. This text indicates that there is currently a **Python environment** loaded and available in this terminal, the **base** environment. It means that you can launch a Python interpreter: type `python` and press enter:
 
 :::{figure} images/fig_python_interpreter_terminal.png
 :align: center
@@ -164,6 +165,70 @@ Besides the current directory, you have noticed the `(base)` text on the top lef
 The Python interpreter opened in the terminal
 :::
 
-When the interpreter open, you will see several information related to your installation of Python. First, `Python 3.13.9` refers to the version of Python installed. These versions correspond to the time evolution of Python since its creation, just like Windows had several versions (95, NT, XP, Vista, 7, 8, 10, 11...), with some functionnalies removed and some others added. In general it is a good idea to use the last Python version, but for this lecture we are going to stick with Python version 3.12 in order to be sure that we are all using the same tools!  Then you see that it is indicated that we are using the Python distribution provided by Anaconda, with some more inforamtion afterwards.
+When the interpreter open, you will see several information related to your installation of Python. First, `Python 3.13.9` refers to the version of Python installed. These versions correspond to the time evolution of Python since its creation, just like Windows had several versions (95, NT, XP, Vista, 7, 8, 10, 11...), with some functionnalies removed and some others added. In general it is a good idea to use the last Python version, but for this lecture we are going to stick with Python version 3.12 in order to be sure that we are all using the same tools!  Then you see that it is indicated that we are using the Python distribution provided by Anaconda, with some more information afterwards.
 
-Finally, on the last line there are now three chevrons `>>>`: it indicates that the interpreter is waiting for some Python code.
+Finally, on the last line there are now three chevrons `>>>`: it indicates that the interpreter is waiting for some Python code. You can write any Python code here, and press Enter. The interpreter will read your code and execute it. For instance, let's try to perform a simple multiplication as shown below:
+
+:::{figure} images/fig_python_terminal_multiplication.png
+:align: center
+:width: 100%
+
+A simple multiplication performed using Python in the terminal
+:::
+
+That's it, you have executed your first Python code! In principle one could write any program here, but using the terminal is really not convenient when writing long code with many lines: in practice, we will never use this Python console in this lecture. Shut down the Python interpreter using the `exit()` command followed by pressiong Enter, as shown below:
+
+:::{figure} images/fig_python_terminal_exit.png
+:align: center
+:width: 100%
+
+Shutting down the Python interpreter
+:::
+
+As you can see, performing basic operations with Python is really straightforward. And actually, this is what Python basically does: basic mathematical operations such as +, -, x, /. Fortunately, based on these people have built more elaborated tools that can perform much more complex calculations. These tools are called **libraries**, but you will learn about them much lately in the lecture. For now, just keep in mind that a library is a tool that will help you to solve a specific set of problems. 
+
+I told you previously that the `(base)` text in the terminal was indicating that a Python environment was available. You can think of an environment as a toolbox, that you will fill with the tools you need to solve the problem your program is designed to address. In real life, if you need to do some plumbing or mechanical work, you will fill your toolbox with different tools as illustrated below. 
+
+:::{figure} images/fig_toolbox.png
+:align: center
+:width: 100%
+
+Python environments are just toolboxes, that you will fill with the tools you need for a specific problem
+:::
+
+This is just the same with Python. For every problem you need to solve, you will use a new toolbox, i.e. **a new Python environment**, that you will fill with the tools you need, which are libraries in Python. The tools contained in a Python environment can be listed using the `conda list` command. This command will list all tools (i.e. libraries) available in the active environment (the one with the name written between parenthesis on the terminal). For instance the figure below shows the tools in the `(base)` environment:
+
+:::{figure} images/fig_base_conda_list.png
+:align: center
+:width: 100%
+
+Librairies available in the base environment
+:::
+
+As you can see, the `base` environment already contains some libraries even though we haven't done anything special yet. These are simple libraries required for the basic functioning of Python. Now, if you want to build a Python program to solve a particular problem, you are going to create a new toolbox, i.e. environment, that you will then fill with tools. Creating a new Python environment can be done using the `conda create` command. This command expects a name for the environment, specified by the `-n name` command, where `name` can be any name you want to give to the environment (without spaces or any weird characters such as accents!). It is also possible to specify the Python version we want to use for the environment. As stated previously, in this lecture we are going to use Python 3.12, which can be specificied using the `python=3.12` option. All together, here is the full command to create the new environment:
+
+:::{figure} images/fig_create_new_env.png
+:align: center
+:width: 100%
+
+Creating a new Python environment
+:::
+
+At some point, the terminal will ask you if you really want to create the environment, as shown below:
+
+:::{figure} images/fig_confirm_new_env.png
+:align: center
+:width: 100%
+
+Python is asking for a confirmation before creating the new environment
+:::
+
+Just type `y` and press Enter. Note that even before that Python may ask you if you accept the Terms of Service; if so just press the right letter to accept and press Enter. If everything works properly, you should end up with the following message in the terminal:
+
+:::{figure} images/fig_create_done.png
+:align: center
+:width: 100%
+
+The terminal after the successful creation of a new Python environment
+:::
+
