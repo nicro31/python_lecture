@@ -1,12 +1,13 @@
+(content:VibeCoding)=
 # Some good Vibes... Coding!
 
-The previous section was quite technical, but essential in order to have a clean Python environment to code. Let's have a bit of fun now, with some **vibe coding**! 😁
+The previous section was quite technical, but essential in order to have a clean Python environment to code. Let's have a bit of fun now, with some **vibe coding**! 😁 In this section we are going to deal with a non scientific example, but the main conclusions apply to any problem, including the chemistry related things we are going to investigate in the following of the lecture.
 
 Vibe Coding is a term coined in 2025 by Andrej Karpathy, co-founder of OpenAI (company behind ChatGPT), which refers to generating working code by providing a natural language description of the program rather than manually writing it (definition from [Wikipedia](https://en.wikipedia.org/wiki/Vibe_coding)).
 
 ## 2mn Tetris
 
-As an example of the power of Vibe Coding, let's try to program the famous Tetris game. A few years back, that would be a rather advanced exercise, and for a non professionnal programmer like I am, it would probably takes a few hours to get something functionnal. But nowadays, this can be achieved in a few minutes (even seconds...) using AI. For this example, I will use the AI ChatGPT, and in particular the free model based on *GPT-5 mini*.
+As an example of the power of Vibe Coding, let's try to program the famous Tetris game. A few years back, that would be a rather advanced exercise, and for a non professionnal programmer like I am, it would probably takes a few hours to get something functionnal. But nowadays, this can be achieved in a few minutes (even seconds...) using AI. For this example, I will use the AI ChatGPT, and in particular the free model based on *GPT-5 mini*. Note that I will use the library `pygame` installed in our Python environment in the previous section, which allow to display graphical stuffs.
 
 In vibe coding, everything starts with a **prompt**, which is the question you are asking to the AI chatbot. Here is the prompt I am using:
 
@@ -412,3 +413,35 @@ This new code will give you the following updated version of the game:
 
 An improved version of tetris
 :::
+
+## Thoughts on AI and programming
+
+I hope this small tetris example has convinced you of the power of AI when it comes to coding! You can take some times here to play with vibe coding and try to build any program you are dreaming of. Have some fun, and at the same time this will be an opportunity to discover the nearly limitless possibilities of Python.
+
+Actually, if you are interested in using Python for "basic" tasks such as plotting figures for publication, it might be that vibe coding is just enough for you and you don't need to go further in this lecture. Yet, at the time of writing (2026) I am convinced that it is still important to learn Python for the following reasons:
+
+- For the tetris example, any AI will succeed in giving you a nice working code without any adjustment required from your side. The reason behind this is that there are so many publicly available tetris code online, that were probably used at some point in the AI training (I believe this is also the reason why all the AI I have tested gave me basically the very same tetris game, in term of colors, shapes, play style...) But if you want to build a large program with very specific functionnalities, it might be that the AI gives a code with some bugs (even if it is becoming increasingly rare); in that case you need to know Python in order to understand the errors you will get, and to find ways to solve them.
+
+- For specific problems again, it might be that the AI doesn't really know "what to do". You will need to guide it precisely with a detailed prompt that specifies all the steps in order to solve the problem. Writing the good prompt is becoming a real technical skill, the so-called **prompt engineering**. The more familiar you are with Python and programming in general, the better will be your prompt.
+
+- AI are really awesome, *but they still have limits*. First, they have some **hallucinations**, meaning they tend to make things up when they don't know the answer, or they just "lie" about things sometimes. In addition, they have a **limited context window**, meaning that they will forget the beginning of the conversation they are having with you if the chat gets too long. All together, if you build a large program with AI and let it do everything from scratch, without understanding anything, at some points you will run into problems for sure. At some points the program will start crashing, you will get lost and spend days trying to fix things by asking again and again the AI to repair the program, but it it just too late.
+
+- Knowing Python and its libraries allows you to be creative and find ways to solve complex problems, sometimes more efficiently than AI.
+
+- For a scientific publication including modeling with a Python program, you definitely need to know exactly how the program works to be 100% sure that it does what it is supposed to!
+
+- Using an AI to write two lines of code is a bit overkill, especially at a time when energy and technological frugality are becoming increasingly important... use it wisely.
+
+- Finally, it is so satisfying to build some working program by yourself, even if you get some helps from AI! 😎
+
+## Final advise
+
+To conclude this section, here is my personnal view on how you should learn and use Python in 2026, especially for sciences:
+
+- The main point is to learn how a program is structured, what is the logic behind, and what type of problems can be solved with programming: it is about getting familiar with a particular "mindset" if you like.
+
+- At the beginning, don't spend too much time learning the precise syntax of the Python langage (even though the very fundamentals must be known). This will come naturally with practicing, and Internet and AI are here to help you find the name of a function when needed.
+
+- Start with solving programming problems only by yourself, and progressively include the use of AI as an assistant.
+
+- You are free to follow this advise or not, but here are the rules I impose on myself: use AI to write code that you could write by yourself, and do not have pieces of code that you have never reviewed in your program! 

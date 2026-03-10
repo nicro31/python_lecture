@@ -1,14 +1,12 @@
 # Welcome! 👋
 
-**Author:** Nicolas Rolland
-
-**Affiliation:** University of Lille, Chemistry Department – UCCS Laboratory, Team [CÏSCO2](https://uccs.univ-lille.fr/axes-de-recherche/catalyse-heterogene/cisco2)
+*Written by Nicolas Rolland, Assistant Professor at University of Lille, Chemistry Department – UCCS Laboratory, Team [CÏSCO2](https://uccs.univ-lille.fr/axes-de-recherche/catalyse-heterogene/cisco2)*
 
 This digital textbook is an introduction to Python, with a focus on chemistry related problems. It is intended to be a one-stop-shop where you can access all of the educational materials used during the course taught in the Chemistry Master's program at the University of Lille.
 
 It is not intended to be an exhaustive presentation to Python, and it is not a lecture dedicated to future software programmers either (which I am not by the way). Instead, the aim of this lecture is to provide to the typical chemistry student (or anyone else) the tools to be able to quickly develop a program to solve a given problem. 
 
-Finally, it is worth questioning whether teaching Python courses remains necessary in light of the incredible programming abilities of Artificial Intelligence? As I write these lines (2026), I still think yes, at least to know where to start from: what should I install on my computer to do some programming, what are the possibilities offered by Python, and how does a program works under the hood. AI is an amazing tool for programming, and just anyone can produce very complex programs nowadays in a couple of hours. Therefore, I definitely encourage the use of AI for programming, but I believe that one must know the basics of programming to really get the best out of it.  
+Finally, it is worth questioning whether teaching Python courses remains necessary in light of the incredible programming abilities of Artificial Intelligence? As I write these lines (2026), I still think yes, at least to know where to start from: what should I install on my computer to do some programming, what are the possibilities offered by Python, and how does a program works under the hood. AI is an amazing tool for programming, and just anyone can produce very complex programs nowadays in a couple of hours. Therefore, I definitely encourage the use of AI for programming, but I believe that one must know the basics of programming to really get the best out of it. The sub-section {ref}`Some good Vibes... Coding!<content:VibeCoding>` discusses some aspects of using AI for programming, and will probably occupy a larger and larger part in the years to come.
 
 ```{warning}
 This textbook is under construction and may change (very) often!
